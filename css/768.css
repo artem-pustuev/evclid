@@ -1,0 +1,115 @@
+@media (max-width: 900px) {
+    .menu__body {
+        width: 55%;
+        height: 734px;
+    }
+    
+    .menu__list {
+        display: flex;
+        flex-direction: column;
+        margin: 47px 0px 0px 27px;
+    }
+
+    .header__container {
+        min-height: 70px;
+    }
+
+    .section-hero {
+        margin: 0px 0px 110px 0px;
+    }
+    .hero__container {
+        height: 105%;
+    }
+    .hero__content {
+        padding: 140px 0px 0px 40px;
+    }
+    .hero__title {
+        padding: 0;
+        font-size: 50px;
+        line-height: 71px;
+    }
+    .hero__main-text {
+        max-width: 582px;
+        font-size: 18px;
+        line-height: 24px;
+        padding: 0px 0px 55px 0px;
+    }
+
+    .about-us {
+        margin-bottom: 80px;
+    }
+    .about-us__text {
+        margin: 0px 0px 60px 0px;
+    }
+    .about-us__left {
+        width: 100%;
+        margin: 0px 0px 52px 0px;
+    }
+    .about-us__left-text {
+        max-width: 53%;
+        margin: 41px 0px 0px 0px;
+    }
+
+    .about-us__left-buttom {
+        margin: 35px 0px 0px 38px;
+    }
+
+    .about-us__right-top, .about0us__right-bottom {
+        min-height: 239px;
+    }
+    .about-us__right-img {
+        width: 100px;
+    }
+    .about-us__right-inf {
+        max-width: 64%;
+        margin: 0px 35px 0px 0px;
+    }
+
+    .job__list {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .job__right-img {
+        width: 100%;
+    }
+
+    .job__content-active {
+        flex-direction: column-reverse;
+    }
+    .job__right {
+        width: 100%;
+        padding: 2px 0px 0px 0px;
+        margin: 0px 0px 30px 0px;
+    }
+    .job__left {
+        width: 100%;
+    }
+
+    .questions {
+        margin: 0px 0px 116px 0px;
+    }
+    .question__subtitle {
+        height: 116px;
+    }
+    .question__title {
+        margin: 0px 0px 29px 0px;
+    }
+    .question__accordion-title {
+        font-size: 20px;
+        max-width: 583px;
+    }
+
+    .footer-container {
+        flex-direction: column-reverse;
+    }
+
+    .footer-left__menu {
+        display: none;
+    }
+    .footer-centre {
+        margin: 51px 0px 0px 0px;
+    }
+    .footer-centre__form-input, .footer-centre__form-textarea {
+        min-width: 81%;
+    }
+}

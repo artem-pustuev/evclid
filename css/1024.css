@@ -1,0 +1,206 @@
+@media (max-width: 1450px) {
+    .menu__item {
+        margin: 0px 30px 0px 0px;
+      }
+      .about-us__left {
+       
+        margin: 0px 0px 10px 0px;
+        width: 100%;
+        
+      }
+      .about-us__right {
+        width: 100%;
+    }
+    .footer-right {
+        display: none;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container {
+        padding: 0px 50px 0px 50px;
+    }
+    /* ------------------HEADER------------- */
+    .logo__item img {
+        margin: 12px 0px 0px 142px;
+    }
+    .header__logo {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: auto;
+    }
+     .logo__item svg {
+        width: 159px;
+      }
+      .logo__item svg rect {
+        width: 200px;
+      }
+    .header__menu {
+        order: -1;
+    }
+    .menu__icon {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 23px;
+        cursor: pointer;
+        z-index: 5;
+    }
+    .menu__icon .icon__burger,
+    .menu__icon::before,
+    .menu__icon::after {
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        transition: all 0.3s ease 0s;
+        background-color: var(--main-black);
+        z-index: 8;
+    }
+    .menu__icon::before,
+    .menu__icon::after{
+        content: "";
+    }
+    .menu__icon::before {
+         top: 0;
+    }
+    .menu__icon::after {
+         bottom: 0;
+    }
+    .menu__icon span {
+        top: 50%;
+        transform: scale(1) translate(0px, -50%); 
+    }
+    .menu__icon._active span {
+        transform: scale(0) translate(0px, -50%); 
+
+    }
+    .menu__icon._active::before {
+        top: 50%;
+        transform: rotate(-45deg) translate(0px, -50%); 
+    }
+    .menu__icon._active::after {
+        bottom: 50%;
+        transform: rotate(45deg) translate(0px, 50%); 
+    }
+
+
+    .menu__body {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 41%;
+        height: 719px;
+        background-color: #fff;
+        padding: 100px 0px 0px 0px;
+        transition: left 0.3s ease 0s;
+        overflow: auto;
+        
+    }
+    .menu__body._active {
+        left: 0;
+    }
+    .menu__list {
+        display: flex;
+        flex-direction: column;
+        margin: 67px 0px 0px 27px;
+    }
+    .menu__list{
+    align-items: normal
+    }
+    .menu__item {
+        margin: 0px 0px 55px 22px;
+      }
+      .menu__item:last-child {
+        margin: 0px 0px 0px 22px;
+    }
+    .menu__link {
+        font-size: 27px;
+        line-height: 30px
+      }
+      /*===================*/
+
+
+      /*==========Section-hero==========*/
+      .section-hero {
+        margin: 0px 0px 132px 0px;
+    }
+      .hero__container {
+        height: 108%;
+    }
+      .hero__content {
+        padding: 156px 0px 0px 80px;
+    }
+    
+    
+    .hero__title {
+        padding: 0px 0px 8px 0px;
+        font-size: 60px;
+        line-height: 79px;
+    }
+    .hero__main-text {
+        max-width: 657px;
+        font-size: 20px;
+        line-height: 25px;
+        padding: 0px 0px 55px 0px;
+    }
+    
+      /*==================*/
+
+      /*=====ABOUT-US=====*/
+      .about-us {
+        margin-bottom: 88px;
+    }
+      .about-us__title {
+        margin: 0px 0px 8px 0px;
+    }
+    .about-us__left {
+        width: 100%;
+        margin: 0px 0px 52px 0px;
+    }
+    .about-us__left-text {
+        max-width: 50%;
+        margin: 42px 0px 0px 0px;
+    }
+    .about-us__left-buttom {
+        margin: 43px 0px 0px 142px;
+    }
+    .about-us__right-top, .about0us__right-bottom {
+        min-height: 295px;
+    }
+    .about-us__right-title {
+        margin: 0px 29px 4px 0px;
+    }
+    .about-us__right-title {
+        max-width: 475px;
+    }
+      /*==================*/
+
+      /*=====Job=====*/
+      .job {
+        margin-bottom: 81px;
+    }
+      .job__inf-text {
+        min-width: 421px;
+        margin: 0px 0px 26px 0px;
+    }
+    /*==========*/
+/*=====questions=====*/
+.questions {
+    margin: 0px 0px 85px 0px;
+  }
+.question__accordion-title {
+        font-size: 20px;
+        max-width: 737px;
+    }
+    /*============*/
+    /*=====FOOTER=====*/
+    .footer-centre {
+        margin: 51px 0px 0px 128px;
+    }
+    .footer-centre__form-btn {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    /*================*/
+}
